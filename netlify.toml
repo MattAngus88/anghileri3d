@@ -1,0 +1,8 @@
+[build]
+command = "bash netlify-build.sh"   # esegue il tuo script
+publish = "public"                  # cartella che lo script deve creare/riempire
+# base = "sottocartella"            # usa questa riga solo se il progetto NON è in radice
+
+[build.environment]
+PYTHON_VERSION = "3.11"             # cambia versione se ti serve diversa
+# NODE_VERSION = "20"               # se usi anche Node
